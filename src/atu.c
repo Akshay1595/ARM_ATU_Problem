@@ -1,3 +1,14 @@
+/**
+ * @file atu.c
+ * @author Akshay Godase
+ * @brief ATU driver as described in https://github.com/Akshay1595/ARM_ATU_Problem/blob/main/README.md
+ * @version 0.1
+ * @date 2024-05-19
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
+
 #include "..\inc\atu.h"
 /* ------------------------------------------------------------------------------------------------- */
 
