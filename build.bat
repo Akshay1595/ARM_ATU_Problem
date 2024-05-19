@@ -1,0 +1,2 @@
+C:\MinGW\bin\gcc.exe -Wall -Wextra -g3  c:\Users\aksha\OneDrive\Desktop\Akshay\ARM_Code\ATU\src\test.c  c:\Users\aksha\OneDrive\Desktop\Akshay\ARM_Code\ATU\src\main.c c:\Users\aksha\OneDrive\Desktop\Akshay\ARM_Code\ATU\src\atu.c -o c:\Users\aksha\OneDrive\Desktop\Akshay\ARM_Code\ATU\output\main.exe
+.\output\main.exe
