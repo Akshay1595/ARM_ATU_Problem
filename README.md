@@ -22,3 +22,12 @@ Problem: Design a bare metal driver code to configure this ATU peripheral with a
 3] With such model we have designed few testcases in [test.c](https://github.com/Akshay1595/ARM_ATU_Problem/blob/main/src/test.c)
 
 
+### Assumptions made:
+1] Register set for each channel are placed in contiguous mem locations
+   For ex. channel 0 Register starts at 1000 and channel 1 starts at 1000 + (number of registers) etc.
+2] Registers for each channels are placed in contiguous mem locations
+   For ex. channel 0 registerA starts at 1000, next registerB will start at 1004 (since CPU is 32-bit assuming each register is 32-bit), registerC at 1008 etc.
+
+### Test:
+1] In real life this will be implemented with hardware, but to test with sample mem channels we have implemeted a model
+2] Where mem Channel is buff which can be addressed by 64-bit bus. Buff1 and Buff2 are example of same.
